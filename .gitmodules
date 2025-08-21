@@ -1,3 +1,3 @@
 [submodule "HebrewLexicon"]
 	path = HebrewLexicon
-	url = ./HebrewLexicon
+	url = https://github.com/schwester-ester/HebrewLexicon.git
