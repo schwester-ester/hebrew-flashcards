@@ -140,7 +140,10 @@ def manually_create_word(word: str, lookup_audio: bool = True) -> HebrewWord:
     kwargs = {"word": word}
     for field in fields(cls):
         name = field.name
-        if not any(
+        if name == "binyan":
+            bval = input(f"{name}")
+            kwargs[name] = BINYAAN_MAP.get(bval.upper())
+        elif not any(
             name == not_input for not_input in ["part_of_speech", "path_to_audio"]
         ):
             val = input(f"{name}")
@@ -196,49 +199,55 @@ def translate_text(
 ) -> List[HebrewWord]:
     selected = []
     words = get_list_of_words(text)
+    failed_words = []
     for word in words:
-        print(f"\nLooking up: {word}")
+        try:
+            print(f"\nLooking up: {word}")
 
-        for word_variation in find_variations(word):
-            options: List[HebrewWord] = lookup_hebrew_word(
-                word_variation, driver, lookup_audio=lookup_audio
-            )
-            if options:
-                break
-
-        if not options:
-            print("No meanings found.")
-            manual_input = yes_or_no_input("Enter manually?")
-            manual = (
-                manually_create_word(word, lookup_audio=lookup_audio)
-                if manual_input
-                else None
-            )
-            selected.append(manual)
-            continue
-
-        for i, option in enumerate(options):
-            print(
-                f"{i}: {option.menukad or option.word} — {option.meaning or 'No meaning provided'}"
-            )
-
-        while True:
-            try:
-                index = input(
-                    f"Select meaning for '{word}' (0-{len(options) - 1}): "
-                ).strip()
-                if index.lower() == "skip":
-                    manual_input = yes_or_no_input("Enter manually?")
-                    manual = (
-                        manually_create_word(word, lookup_audio=lookup_audio)
-                        if manual_input
-                        else None
-                    )
-                    selected.append(manual)
+            for word_variation in find_variations(word):
+                options: List[HebrewWord] = lookup_hebrew_word(
+                    word_variation, driver, lookup_audio=lookup_audio
+                )
+                if options:
                     break
-                selected.append(options[int(index)])
-                break
-            except (ValueError, IndexError):
-                print("Invalid input. Please enter a valid index or 'skip' to skip.")
 
-    return selected
+            if not options:
+                print("No meanings found.")
+                manual_input = yes_or_no_input("Enter manually?")
+                manual = (
+                    manually_create_word(word, lookup_audio=lookup_audio)
+                    if manual_input
+                    else None
+                )
+                selected.append(manual)
+                continue
+
+            for i, option in enumerate(options):
+                print(
+                    f"{i}: {option.menukad or option.word} — {option.meaning or 'No meaning provided'}"
+                )
+
+            while True:
+                try:
+                    index = input(
+                        f"Select meaning for '{word}' (0-{len(options) - 1}): "
+                    ).strip()
+                    if index.lower() == "skip":
+                        manual_input = yes_or_no_input("Enter manually?")
+                        manual = (
+                            manually_create_word(word, lookup_audio=lookup_audio)
+                            if manual_input
+                            else None
+                        )
+                        selected.append(manual)
+                        break
+                    selected.append(options[int(index)])
+                    break
+                except (ValueError, IndexError):
+                    print(
+                        "Invalid input. Please enter a valid index or 'skip' to skip."
+                    )
+        except Exception:
+            failed_words.append(word)
+
+    return selected, failed_words

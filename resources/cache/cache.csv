@@ -269,3 +269,80 @@ word,meaning,transliteration,menukad,part_of_speech,root,path_to_audio,gender,nu
 שבע,"satiated, full (of food)",svea-,שְׂבֵעַ־,PartOfSpeech.WORD,שׂ - ב - ע,,,,,,,
 שבע,seven f.,sheva,שֶׁבַע,PartOfSpeech.WORD,שׁ - ב - ע,,,,,,,
 שבע,(the) seven f. of,sheva,שֶׁבַע,PartOfSpeech.WORD,שׁ - ב - ע,,,,,,,
+ה',God,hashem,,PartOfSpeech.NOUN,,,masculine,singular,,,,
+אבא,"dad, father",aba,אַבָּא,PartOfSpeech.NOUN,,,,singular,False,,,
+והוא,and he,hu,הוּא,PartOfSpeech.WORD,,,,,,,,
+תמיד,always,tamid,תָּמִיד,PartOfSpeech.WORD,,,,,,,,
+מתפאר,I / you m. sg. / he / it boast(s),mitpa'er,מִתְפָּאֵר,PartOfSpeech.VERB,פ - א - ר,,masculine,singular,,Binyaan.HITPAEL,present,
+בי,in me,bi,בִּי,PartOfSpeech.WORD,,,,,,,,
+ת'נקודות,the points / sides,t'nekudot,,PartOfSpeech.NOUN,נ - ק - ד,,feminine,plural,,,,
+הטובות,good; pleasant; appropriate,tovot,טוֹבוֹת,PartOfSpeech.WORD,ט - ו - ב,,,,,,,
+הטובות,the favours,tovot,טוֹבוֹת,PartOfSpeech.NOUN,ט - ו - ב,,feminine,plural,True,,,
+שאני,that I,ani,אֲנִי,PartOfSpeech.WORD,,,,,,,,
+להיות,to be,lihyot,לִהְיוֹת,PartOfSpeech.VERB,ה - י - ה,,,,,Binyaan.PAAL,,
+להיות,to (the) being,heyot,הֱיוֹת,PartOfSpeech.NOUN,ה - י - הּ,,,singular,False,,,
+להיות,to (the) being of ...,heyot-,הֱיוֹת־,PartOfSpeech.NOUN,ה - י - הּ,,,singular,False,,,
+יוצא,I / you m. sg. / he / it exit(s),yotze,יוֹצֵא,PartOfSpeech.VERB,י - צ - א,,masculine,singular,,Binyaan.PAAL,present,
+יוצא,he / it will be brought out,yutza,יוּצָא,PartOfSpeech.VERB,י - צ - א,,masculine,singular,,Binyaan.HIFIL,future,3rd person
+יוצא,he / it was exported,yutza,יֻצָּא,PartOfSpeech.VERB,י - צ - א,,masculine,singular,,Binyaan.PIEL,past,3rd person
+וחסרות,and we / you f. pl. / they f. lack,chaserot,חֲסֵרוֹת,PartOfSpeech.VERB,ח - ס - ר,,feminine,plural,,Binyaan.PAAL,present,
+וחסרות,"lacking, deficient; -less (when used in construct state)",chaserot,חֲסֵרוֹת,PartOfSpeech.WORD,ח - ס - ר,,,,,,,
+וחסרות,"lacking, deficient; -less (when used in construct state)",chasrot-,חַסְרוֹת־,PartOfSpeech.WORD,ח - ס - ר,,,,,,,
+וחסרות,"uncontrolled, uncontrollable, unchecked",chasrot resen,חַסְרוֹת רֶסֶן,PartOfSpeech.WORD,,,,,,,,
+וחסרות,useless,chasrot to'elet,חַסְרוֹת תּוֹעֶלֶת,PartOfSpeech.WORD,,,,,,,,
+כולה,he / it was finished,kula,כֻּלָּה,PartOfSpeech.VERB,כ - ל - ה,,masculine,singular,,Binyaan.PIEL,past,3rd person
+כולה,all of her,kula(h),כֻּלָּהּ,PartOfSpeech.NOUN,כ - ל - ל,,masculine,singular,False,,,
+כולה כמה,only a few,kula kama,,,,,,,,,,
+תפילות,prayers,tfilot,תְּפִלּוֹת,PartOfSpeech.NOUN,פ - ל - ל,,feminine,plural,False,,,
+תפילות,prayers of ...,tfilot-,תְּפִלּוֹת־,PartOfSpeech.NOUN,פ - ל - ל,,feminine,plural,False,,,
+גם,"also, too, in addition",gam,גַּם,PartOfSpeech.WORD,,,,,,,,
+ראה,he / it saw,ra'a,רָאָה,PartOfSpeech.VERB,ר - א - ה,,masculine,singular,,Binyaan.PAAL,past,3rd person
+ראה,(to a man) see!,re'e!,רְאֵה!,PartOfSpeech.VERB,ר - א - ה,,masculine,singular,,Binyaan.PAAL,,2nd person
+ראה,lung,re'a,רֵאָה,PartOfSpeech.NOUN,,,feminine,singular,False,,,
+הרצון,the desire,ratzon,רָצוֹן,PartOfSpeech.NOUN,ר - צ - ה,,masculine,singular,True,,,
+שהיה,that he / it was,haya,הָיָה,PartOfSpeech.VERB,ה - י - ה,,masculine,singular,,Binyaan.PAAL,past,3rd person
+שהיה,"stay, staying",shehiya,שְׁהִיָּה,PartOfSpeech.NOUN,שׁ - ה - ה,,feminine,singular,False,,,
+כשניסיתי,when I tried,nisiti,נִסִּיתִי,PartOfSpeech.VERB,נ - ס - ה,,,singular,,Binyaan.PIEL,past,1st person
+אמרתי,I said,amarti,אָמַרְתִּי,PartOfSpeech.VERB,א - מ - ר,,,singular,,Binyaan.PAAL,past,1st person
+אמרתי,my saying,imrati,אִמְרָתִי,PartOfSpeech.NOUN,א - מ - ר,,feminine,singular,False,,,
+נואש,I / you m. sg. / he / it despair(s),no'ash,נוֹאָשׁ,PartOfSpeech.VERB,י - א - שׁ,,masculine,singular,,Binyaan.NIFAL,present,
+נואש,he / it despaired,no'ash,נוֹאַשׁ,PartOfSpeech.VERB,י - א - שׁ,,masculine,singular,,Binyaan.NIFAL,past,3rd person
+נואש,we will despair,niva'esh,נִוָּאֵשׁ,PartOfSpeech.VERB,י - א - שׁ,,,plural,,Binyaan.NIFAL,future,1st person
+בביזיון,shame,babizayon,,PartOfSpeech.NOUN,,,,singular,,,,
+במר,in (the) mister,mar,מַר,PartOfSpeech.NOUN,,,,singular,False,,,
+במר,in (the) myrrh,mor,מֹר,PartOfSpeech.NOUN,,,masculine,singular,False,,,
+במר,in (the) myrrh of ...,mor-,מֹר־,PartOfSpeech.NOUN,,,masculine,singular,False,,,
+במר,in the bitterness,bamar,,PartOfSpeech.NOUN,,,,,,,,
+שהרגשתי,that I felt,hirgashti,הִרְגַּשְׁתִּי,PartOfSpeech.VERB,ר - ג - שׁ,,,singular,,Binyaan.HIFIL,past,1st person
+שהרגשתי,that I was felt,hurgashti,הֻרְגַּשְׁתִּי,PartOfSpeech.VERB,ר - ג - שׁ,,,singular,,Binyaan.HIFIL,past,1st person
+שהרגשתי,that my feeling,hargashati,הַרְגָּשָׁתִי,PartOfSpeech.NOUN,ר - ג - שׁ,,feminine,singular,False,,,
+איך,how,eich,אֵיךְ,PartOfSpeech.WORD,,,,,,,,
+איך,your f. sg. island,iyech,אִיֵּךְ,PartOfSpeech.NOUN,,,masculine,singular,False,,,
+איך,your m. sg. island,iycha,אִיְּךָ,PartOfSpeech.NOUN,,,masculine,singular,False,,,
+התחל,(to a man) start!,hatchel!,הַתְחֵל!,PartOfSpeech.VERB,ת - ח - ל,,masculine,singular,,Binyaan.HIFIL,,2nd person
+התחל,he / it was started,hutchal,הֻתְחַל,PartOfSpeech.VERB,ת - ח - ל,,masculine,singular,,Binyaan.HIFIL,past,3rd person
+התחלתי,I started,hitchalti,הִתְחַלְתִּי,PartOfSpeech.VERB,ת - ח - ל,,,singular,,HIFIL,past,1st person
+פעם,he / it beat,pa'am,פָּעַם,PartOfSpeech.VERB,פ - ע - ם,,masculine,singular,,Binyaan.PAAL,past,3rd person
+פעם,(to a man) beat!,pe'am!,פְּעַם!,PartOfSpeech.VERB,פ - ע - ם,,masculine,singular,,Binyaan.PAAL,,2nd person
+פעם,"time (occasion), time round; once (when used as an adverb)",pa'am,פַּעַם,PartOfSpeech.NOUN,פ - ע - ם,,feminine,singular,False,,,
+פעם,time of ...,pa'am-,פַּעַם־,PartOfSpeech.NOUN,פ - ע - ם,,feminine,singular,False,,,
+פעם,(to a man) surge!,pa'em!,פַּעֵם!,PartOfSpeech.VERB,פ - ע - ם,,masculine,singular,,Binyaan.PIEL,,2nd person
+פעם,he / it surged,pi'em,פִּעֵם,PartOfSpeech.VERB,פ - ע - ם,,masculine,singular,,Binyaan.PIEL,past,3rd person
+שוב,(to a man) return!,shuv!,שׁוּב!,PartOfSpeech.VERB,שׁ - ו - ב,,masculine,singular,,Binyaan.PAAL,,2nd person
+שוב,again,shuv,שׁוּב,PartOfSpeech.WORD,שׁ - ו - ב,,,,,,,
+מחדש,I / you m. sg. / he / it renew(s),mechadesh,מְחַדֵּשׁ,PartOfSpeech.VERB,ח - ד - שׁ,,masculine,singular,,Binyaan.PIEL,present,
+מחדש,I am / you m. sg. are / he / it is renewed,mechudash,מְחֻדָּשׁ,PartOfSpeech.VERB,ח - ד - שׁ,,masculine,singular,,Binyaan.PIEL,present,
+מחדש,from month,chodesh,חֹדֶשׁ,PartOfSpeech.NOUN,ח - ד - שׁ,,masculine,singular,False,,,
+מחדש,from (the) month of ...,chodesh-,חֹדֶשׁ־,PartOfSpeech.NOUN,ח - ד - שׁ,,masculine,singular,False,,,
+יתברך,he / it will be blessed,yitbarech,יִתְבָּרֵךְ,PartOfSpeech.VERB,ב - ר - ך,,masculine,singular,,Binyaan.HITPAEL,future,3rd person
+אוהב,I / you m. sg. / he / it love(s),ohev,אוֹהֵב,PartOfSpeech.VERB,א - ה - ב,,masculine,singular,,Binyaan.PAAL,present,
+אוהב,I will love,ohav,אֹהַב,PartOfSpeech.VERB,א - ה - ב,,,singular,,Binyaan.PAAL,future,1st person
+אותי,me,oti,אוֹתִי,PartOfSpeech.WORD,,,,,,,,
+אותי,my letter,oti,אוֹתִי,PartOfSpeech.NOUN,א - ו - ת,,feminine,singular,False,,,
+אותי,my signal,oti,אוֹתִי,PartOfSpeech.NOUN,א - ו - ת,,masculine,singular,False,,,
+ותמיד,and always,tamid,תָּמִיד,PartOfSpeech.WORD,,,,,,,,
+יהיה,he / it will be,yihye,יִהְיֶה,PartOfSpeech.VERB,ה - י - ה,,masculine,singular,,Binyaan.PAAL,future,3rd person
+ויהיה,and he / it will be,yihye,יִהְיֶה,PartOfSpeech.VERB,ה - י - ה,,masculine,singular,,Binyaan.PAAL,future,3rd person
+עוד,"yet, still; more (forms with pronominal suffixes are used in highly formal or poetic language)",od,עוֹד,PartOfSpeech.WORD,,,,,,,,
+ועוד,"yet, still; more (forms with pronominal suffixes are used in highly formal or poetic language)",od,עוֹד,PartOfSpeech.WORD,,,,,,,,
+ועוד,"plus, (mathematics)",ve'od,וְעוֹד,PartOfSpeech.WORD,,,,,,,,
