@@ -32,6 +32,20 @@ On Windows:
 
 > pip install -r requirements.txt
 
+> npm install
+
+> npm install --save-dev nodemon
+
+> npm run dev
+
+This will run the app on http://127.0.0.1:5000/
+
+To attach a debugger in VSCode,
+
+Go to the Run and Debug tab → click the green play icon → select "Node.js: Attach".
+
+It will connect to that ws:// debugger session.
+
 
 ---
 
